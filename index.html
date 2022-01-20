@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pencil Spy</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+
+  <!--First Page -->
+  <div class="container top">
+    <img id="cloud1" src="img/cloud.png" alt="cloud">
+    <img id="cloud2" src="img/cloud.png" alt="cloud">
+    <div class="top-text">
+      <h1 class="text heading">Pencil Spy</h1>
+      <h2 class="text">Presented by Group 23</h2>
+    </div>
+    <img class="background" src="img/background.png" alt="background">
+  </div>
+
+  <!-- Second Page -->
+  <!-- Self Introduction -->
+  <div class="part2">
+
+
+    <h2 class="mid-text">Game Rules</h2>
+    <div class="abc">
+      <ol>
+        <li>Players are not allowed to tell other players of their topic verbally or it would be considered as cheating</li>
+        <li>Players who are given the topic will then have to insert clues by drawing a picture towards that given topic (small objects that are commonly found in the topic)</li>
+        <li>Players are not allowed to draw the topic itself</li>
+        <li>The ‘wild card’ has to stay within the topic, can’t be too broad, but can make it challenging. </li>
+        <li>If the wildcard is left unguessed, the next round continues with the same topic and players erase their previous drawing to include a new one</li>
+        <li>The person who was voted out is kicked out </li>
+        <li>The host has to inform the wildcard that he is the wildcard</li>
+        <li>If there is a tie due to even number voting, the round will be counted as a draw and the round will proceed to the next </li>
+        <li>If the spy is not guessed based on majority sense towards the last round, the spy will count as a win</li>
+        <li>As a strategy sense, if the spy identifies the topic, he or she can keep this information to themselves and draw clues towards the topic they think it is to throw other participants off</li>
+        <li>The winner is decided whether if the person is not able to guess the topic (if able to guess, guesser wins, if not able to guess, wildcard and drawers win)</li>
+        <li>Whoever shares the screen has to be the host of the round </li>
+      </ol>
+    </div>
+
+    <h2 class="mid-text">Step</h2>
+    <div class="abc">
+      <p>After everyone gives a description of that topic or after 1 minute, that round will end. Everyone can join in the discussion and try to guess who is holding the ‘wild card’. After the discussion, there will be a voting session to decide who
+        they think the ‘wild card’ holder is. If they choose the ‘wild card’ holder, the majority win. If they choose the wrong person, he will lose the game and the game continues until either ‘wild card’ holder is found or half of the majority lose
+        the game.</p>
+    </div>
+  </div class="wg">
+  <div class="ran">
+    <h1 class="ran1">Topic Generator</h1>
+    <h2 class="ran1">Majority / Wild Card</h2>
+    <FORM NAME="WordForm">
+      <INPUT TYPE=TEXT NAME="WordBox" id="wordbox"><BR>
+      <INPUT TYPE=BUTTON VALUE="Generate" onClick="PickRandomWord(document.WordForm);" id="button">
+    </FORM>
+  </div>
+
+
+<div class="bottom">
+
+</div>
+
+</body>
+
+</html>

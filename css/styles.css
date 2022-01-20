@@ -1,0 +1,170 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "VT323", monospace;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+div {
+
+}
+
+h1 {
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+hr {
+  border-color: #DBD0C0;
+  margin-top: 40px;
+  width: 5%;
+  border-width: 10px;
+  border-top-style: dotted;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+
+ol{
+  text-align: left;
+}
+.pro-pic {
+  margin: 20px auto 0 auto;
+}
+
+.background {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.top {
+  height: 100%;
+  width: 100%;
+  background-color: #A2D2FF;
+}
+
+#cloud1 {
+  width: 15%;
+  position: absolute;
+  top: 35%;
+  left: 70%;
+}
+
+#cloud2 {
+  width: 15%;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+.top-text {
+  padding-top: 10%;
+  margin-top: 0;
+  color: #52616B;
+}
+
+.self-intro{
+  margin: auto;
+  width: 50%;
+}
+
+.middle {
+  background-color: black;
+  padding-bottom: 35px;
+}
+
+.skill-row {
+  margin: 50px auto 0;
+  width: 25%;
+}
+
+.web-dev {
+  float: left;
+  margin-right: 30px;
+}
+
+.programming-pic {
+  float: right;
+  margin-left: 30px;
+}
+
+.pixelart-pic {
+  float: left;
+  margin-right: 30px;
+}
+.mid-text {
+  margin-top: 0;
+  color: green;
+}
+
+.abc {
+  background-color: black;
+  width: 50%;
+  margin: auto;
+  font-size: 22px;
+  color: green;
+}
+
+.part2 {
+  margin-top: 0;
+  background-color: black;
+  padding-bottom: 100px;
+}
+
+
+#wordbox {
+    /*opacity: 0;*/
+    margin: 30px auto 0;
+    display: block;
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    background: #fff;
+    border-radius: 6px;
+    color: #black;
+    transition: 1s linear;
+}
+
+#button {
+  background: #0b7fba;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 1em 2em;
+    cursor: pointer;
+    margin: 0 auto 60px;
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.wg {
+  background-color: #fff;
+}
+
+.bottom {
+  height: 100px;
+  background-color: black;
+}
+
+.ran {
+  margin: 0;
+  background-color: green;
+}
+
+.ran1 {
+  margin: 0;
+}
